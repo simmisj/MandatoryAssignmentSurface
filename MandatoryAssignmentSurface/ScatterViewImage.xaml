@@ -1,0 +1,10 @@
+﻿<s:SurfaceWindow x:Class="MandatoryAssignmentSurface.ScatterViewImage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:s="http://schemas.microsoft.com/surface/2008"
+    Title="MandatoryAssignmentSurface" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="241" SizeToContent="WidthAndHeight" d:DesignWidth="230">
+  <Grid>
+        <Label Content="Label" Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="labelImageName" VerticalAlignment="Top" />
+        <Image Height="158" HorizontalAlignment="Left" Margin="0,44,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="208" />
+    </Grid>
+</s:SurfaceWindow>
